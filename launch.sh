@@ -1,4 +1,4 @@
-bsub -q long -W 20:00 -R "rusage[mem=12000]" -oo snk2.out -eo snk2.err "snakemake -j 999 --printshellcmds --cluster-config cluster.json --cluster \"bsub -q {cluster.queue} -W {cluster.time} -n {cluster.nCPUs} -R {cluster.memory} -R {cluster.resources} -oo {cluster.output} -eo {cluster.error} -J {cluster.name}\""
+bsub -q long -W 20:00 -R "rusage[mem=12000]" -oo snk.out -eo snk.err "snakemake -j 999 --configfile $1 --printshellcmds --cluster-config cluster.json --cluster \"bsub -q {cluster.queue} -W {cluster.time} -n {cluster.nCPUs} -R {cluster.memory} -R {cluster.resources} -oo {cluster.output} -eo {cluster.error} -J {cluster.name}\""
 ###
 # some notes on an experienced snakemaker ...
 ###

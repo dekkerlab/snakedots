@@ -1,4 +1,5 @@
-configfile: "project.yml"
+# we'll specify configfile as a CLI argument to the snakemake itself --configfile
+# configfile: "project.yml"
 
 resolutions = [5000,10000]
 
