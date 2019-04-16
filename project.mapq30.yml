@@ -1,16 +1,16 @@
 samples:
-   - U54-H1ESC4DN-FA-DSG-MNase-R1__hg38.null.mapq30.500.mcool
-   - U54-H1ESC4DN-FA-DSG-MNase-R1-R2__hg38.null.mapq30.500.mcool
-   - U54-H1ESC4DN-FA-DSG-MNase-R2__hg38.null.mapq30.500.mcool
-   - U54-HFFc64DN-FA-DSG-MNase-R1__hg38.null.mapq30.500.mcool
-   - U54-HFFc64DN-FA-DSG-MNase-R1-R2__hg38.null.mapq30.500.mcool
-   - U54-HFFc64DN-FA-DSG-MNase-R2__hg38.null.mapq30.500.mcool
-   - U54-ESC4DN-FA-DpnII-2017524-R1-T1-T2__hg38.null.mapq30.500.mcool
-   - U54-HFFc6-p17-p22-FA-DpnII-20170327__hg38.null.mapq30.500.mcool
-   - U54-ESC4DN-FA-DpnII-2017524-R1-T1__hg38.null.mapq30.500.mcool
-   - U54-ESC4DN-FA-DpnII-2017524-R1-T2__hg38.null.mapq30.500.mcool
-   - U54-HFFc6-p17-FA-DpnII-20170327__hg38.null.mapq30.500.mcool
-   - U54-HFFc6-p22-FA-DpnII-20170327__hg38.null.mapq30.500.mcool
+   - U54-H1ESC4DN-FA-DSG-MNase-R1__hg38.null.mapq_30.500.mcool
+   - U54-H1ESC4DN-FA-DSG-MNase-R1-R2__hg38.null.mapq_30.500.mcool
+   - U54-H1ESC4DN-FA-DSG-MNase-R2__hg38.null.mapq_30.500.mcool
+   - U54-HFFc64DN-FA-DSG-MNase-R1__hg38.null.mapq_30.500.mcool
+   - U54-HFFc64DN-FA-DSG-MNase-R1-R2__hg38.null.mapq_30.500.mcool
+   - U54-HFFc64DN-FA-DSG-MNase-R2__hg38.null.mapq_30.500.mcool
+   - U54-ESC4DN-FA-DpnII-2017524-R1-T1-T2__hg38.null.mapq_30.500.mcool
+   - U54-HFFc6-p17-p22-FA-DpnII-20170327__hg38.null.mapq_30.500.mcool
+   - U54-ESC4DN-FA-DpnII-2017524-R1-T1__hg38.null.mapq_30.500.mcool
+   - U54-ESC4DN-FA-DpnII-2017524-R1-T2__hg38.null.mapq_30.500.mcool
+   - U54-HFFc6-p17-FA-DpnII-20170327__hg38.null.mapq_30.500.mcool
+   - U54-HFFc6-p22-FA-DpnII-20170327__hg38.null.mapq_30.500.mcool
 location:
    - /nl/umw_job_dekker/users/sv49w/2019-02-19-uC-Nils-remap/results/coolers_library_group
    - /nl/umw_job_dekker/users/sv49w/2019-02-19-uC-Nils-remap/results/coolers_library_group
