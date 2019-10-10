@@ -1,0 +1,6 @@
+samples:
+   - U54-H1ESC4DN-FA-DSG-MNase-R1-R2__hg38.null.mapq_30.downsampled.1000.mcool
+   - U54-HFFc64DN-FA-DSG-MNase-R1-R2__hg38.null.mapq_30.downsampled.1000.mcool
+location:
+   - /nl/umw_job_dekker/users/sv49w/2019-10-10-uC-Nils-Sameer-downsample
+   - /nl/umw_job_dekker/users/sv49w/2019-10-10-uC-Nils-Sameer-downsample
