@@ -73,9 +73,9 @@ rule call_dots:
     run:
         for res, inexp, outdots in zip(resolutions,input.expected,output.signif_dots):
             shell(" {params.mkl_preamble} "+
-                "cooltools call-dots -n {threads} "+
+                "cooltools call-dots --nproc {threads} "+
                 "    -o {outdots} -v --fdr {params.fdr} "+
-                "    --balancing-weight-name 'wsnake' "+
+                "    --weight-name 'wsnake' "+
                 "    --max-nans-tolerated 4 "+
                 "    --max-loci-separation {params.diag_width} "+
                 "    --dots-clustering-radius 21000 "+
