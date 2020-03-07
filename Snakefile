@@ -52,7 +52,7 @@ rule compute_n_clean_expected:
         for res, out_local in zip(resolutions, output):
             print("Trying to compute expected for {}".format(res))
             shell(" {params.mkl_preamble} "+
-                "cooltools compute-expected -p {threads} --weight-name 'wsnake' --drop-diags 1 {input[0]}::/resolutions/{res} |"+
+                "cooltools compute-expected -p {threads} --weight-name 'wsnake' --ignore-diags 1 {input[0]}::/resolutions/{res} |"+
                 "grep -v -e \"^chrM\" | grep -v -e \"^chrY\" > {out_local}")
 
 
